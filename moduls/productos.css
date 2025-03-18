@@ -1,14 +1,5 @@
-.contenedor-productos {
-    display: grid; /* Usamos Grid para control más preciso */
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Distribuye los productos en filas de 250px como mínimo */
-    gap: 20px; /* Espacio entre productos */
-    justify-content: center; /* Centra el contenido horizontalmente */
-    padding: 20px;
-}
-
 .producto {
-    width: 100%; /* Hace que los productos llenen el 100% del contenedor asignado */
-    max-width: 250px; /* Limita el tamaño máximo de cada producto */
+    width: 250px;
     border: 1px solid #40ac15;
     border-radius: 10px;
     padding: 15px;
@@ -19,7 +10,7 @@
 }
 
 .producto:hover {
-    transform: scale(1.05); /* Escala el producto al pasar el ratón */
+    transform: scale(1.05);
 }
 
 .producto img {
@@ -44,4 +35,4 @@
 .producto p {
     font-size: 14px;
     color: #666;
-}
+} 
