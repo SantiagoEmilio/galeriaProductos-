@@ -1,0 +1,21 @@
+:root {
+    --color-primary: #1abc9c; /* Turquesa */
+    --color-secondary: #e74c3c; /* Rojo */
+    --color-background:var(--color-text); /* Fondo oscuro */
+    --color-text: #ecf0f1; /* Texto claro */
+    --color-border: #34495e; /* Borde oscuro */
+    --font-primary: 'Roboto', sans-serif; /* Fuente moderna */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    line-height: 1.6;
+}
